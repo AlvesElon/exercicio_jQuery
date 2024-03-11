@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+form, h1 {
+    max-width: 1360px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form input {
+    padding: 6px;
+}
+
+button {
+    font-size: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgba(131, 17, 184, 0.534);
+    color: white;
+}
+
+table{
+    width: 30%;
+    background-color: #17171b2f;
+    margin: 0px auto 200px;
+}
+
+table td{
+    text-align: center;
+    font-size: 24px;
+}
