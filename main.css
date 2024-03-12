@@ -33,11 +33,17 @@ button {
 
 table{
     width: 30%;
-    background-color: #17171b2f;
+    background-color: #17171b10;
     margin: 0px auto 200px;
+}
+table th{
+    border-bottom: 2px solid black;
+    padding: 8px;
 }
 
 table td{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
 }
