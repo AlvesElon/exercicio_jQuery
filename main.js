@@ -3,14 +3,14 @@ $(document).ready(function() {
     $("form").on("submit", function (e){
         e.preventDefault();
         const newTask = $('#task').val();
-        const newLine = $('<li><tr>');
+        const newLine = $('<tr>');
         $('<td>').text(newTask).appendTo(newLine);
-        $('</td></tr><li>').appendTo(newLine);
+        $('</td></tr>').appendTo(newLine);
         newLine.appendTo('table tbody');
-        $('#Task').val('');
+        $('#task').val('');
     });
 
-    $("td").click(function() {
+    $(document).on("click", "table td", function() {
         $(this).css("text-decoration", "line-through");
     });
 })
